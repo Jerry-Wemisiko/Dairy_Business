@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+
+}
 .container1{
     background-image: url(Images/jakob-cotton-00z6-wRHEYU-unsplash.jpg);
     background-size: cover;
