@@ -9,8 +9,6 @@ function totalProduction()
 
     var total =shedA+shedB+shedC+shedD;
 
-
-    document.getElementById("weekly").innerHTML=total +"liters";
 }
  
 
