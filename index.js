@@ -1,6 +1,7 @@
 var findTotal=document.getElementById("prod")
 
-function totalProduction(){
+function totalProduction()
+{
     var shedA=parseInt(document.getElementById("a"));
     var shedB=parseInt(document.getElementById("b"));
     var shedC=parseInt(document.getElementById("c"));
@@ -13,14 +14,15 @@ function totalProduction(){
 }
  
 
-function incomeOverTime(){
+function incomeOverTime()
+{
     
 var income =document.getElementsByClassName("overtime");
     
-var shedA=parseInt(document.getElementById("a"));
-var shedB=parseInt(document.getElementById("b"));
-var shedC=parseInt(document.getElementById("c"));
-var shedD=parseInt(document.getElementById("d"));
+var shedA=parseInt(document.getElementById("1"));
+var shedB=parseInt(document.getElementById("2"));
+var shedC=parseInt(document.getElementById("3"));
+var shedD=parseInt(document.getElementById("4"));
 var rate=parseInt(document.getElementById("rate"));
 
 

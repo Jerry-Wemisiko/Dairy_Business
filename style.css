@@ -1,5 +1,5 @@
 .container1{
-    background-image: url(Images/shyam-INz3Hcue6pY-unsplash.jpg);
+    background-image: url(Images/jakob-cotton-00z6-wRHEYU-unsplash.jpg);
     background-size: cover;
     text-align: center;
     font-size: xx-large;
@@ -11,10 +11,24 @@
   
 }
 
-#sheds{
+.sheds{
     display: flex;
     flex-direction: column;
     height: 50px;
     width: 100px;
-    background-color: grey;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rate{
+    display: flex;
+    flex-direction: column;
+}
+.overtime{
+    display: flex;
+    flex-direction: column;
 }
