@@ -21,6 +21,8 @@ var shedA=parseInt(document.getElementById("a"));
 var shedB=parseInt(document.getElementById("b"));
 var shedC=parseInt(document.getElementById("c"));
 var shedD=parseInt(document.getElementById("d"));
+var rate=parseInt(document.getElementById("rate"));
+
 
 var total =a+b+c+d;
 
