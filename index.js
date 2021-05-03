@@ -1,13 +1,13 @@
-var findSum = document.getElementById("production");
+var findTotal=document.getElementById("prod")
 
-findSum.onclick=totalProduction;
 
-function totalProduction(){
-    var shedA =parseInt(document.getElementById("num1").value);
-    var shedB = parseInt(document.getElementById("num2").value);
-    var shedC = parseInt(document.getElementById("num3").value);
-    var shedD = parseInt(document.getElementById("num4").value);
-        
-    var litres = shedA + shedB + shedC + shedD;
-
+function totalProduction()
+{
+    var shedA=510;
+    var shedB=308;
+    var shedC=486;
+    var shedD=572;
+    
+    console.log(shedA +shedB+shedC+shedD);
 }
+
