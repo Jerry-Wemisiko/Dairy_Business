@@ -6,10 +6,9 @@ This website enables  one to view JJ Dairy Business production per shed, sales p
 You need to have git installed. If not, you can install git with the following command in your terminal; '$ sudo apt-get install git-all`.
 ## Setup/Installation Requirements
 To access this project on your local files, you can clone it using these steps.
-* Open your terminal.
-* Use this command to clone `$ git clone https://jerry-wemisiko.github.io/Dairy_Business/
-* This will clone the repositoty into your local folder.
-* Enjoy.
+  Open your terminal.
+  Use this command to clone `$ git clone https://jerry-wemisiko.github.io/Dairy_Business/
+  This will clone the repositoty into your local folder
 ## Known Bugs
 There are no known bugs at this moment.
 ## Technologies Used
