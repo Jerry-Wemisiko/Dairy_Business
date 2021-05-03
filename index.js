@@ -1,13 +1,37 @@
 var findTotal=document.getElementById("prod")
 
+function totalProduction(){
+    var shedA=parseInt(document.getElementById("a"));
+    var shedB=parseInt(document.getElementById("b"));
+    var shedC=parseInt(document.getElementById("c"));
+    var shedD=parseInt(document.getElementById("d"));
 
-function totalProduction()
-{
-    var shedA=510;
-    var shedB=308;
-    var shedC=486;
-    var shedD=572;
+    var total =shedA+shedB+shedC+shedD;
+
+
+    document.getElementById("weekly").innerHTML=total +"liters";
+}
+ 
+
+function incomeOverTime(){
     
-    console.log(shedA +shedB+shedC+shedD);
+var income =document.getElementsByClassName("overtime");
+    
+var shedA=parseInt(document.getElementById("a"));
+var shedB=parseInt(document.getElementById("b"));
+var shedC=parseInt(document.getElementById("c"));
+var shedD=parseInt(document.getElementById("d"));
+
+var total =a+b+c+d;
+
+var week=7;
+var month=30;
+var year=365;
+
+
+var weeklyIncome=week*rate*total;
+var monthlyIncome=month*rate*total;
+var yearlyIncome=year*rate*total;
 }
 
+ 

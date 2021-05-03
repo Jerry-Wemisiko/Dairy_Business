@@ -9,36 +9,82 @@
 </head>
 <body>
     <script src="index.js"></script>
-<div class="container1">
-    <h1>JJ Dairy Business</h1>
-       <p>For the best milk</p>
-</div>
- 
+    <header>   
+         
+        <div class="container1">
+            <strong>
+                JJ Dairy Business
+
+            </strong>
+               <p>For the best milk</p>
+        </div>
+    </header>
+
 
 <div class="sheds"> 
-        <h1>Production Output</h1>
-        <button id="a" onclick="productionShedA()">Shed A
+        <h1>
+            <strong>Production Output</strong>
+        </h1>
 
-        <button id="b" onclick="productionShedB()">Shed B
-        </button>
+                <button id="a" onclick="productionShedA()">Shed A
 
-        <button id="c" onclick="productionShedC()">Shed B
-        </button>
+                <button id="b" onclick="productionShedB()">Shed B
+                </button>
 
-        <button id="d" onclick="productionShedD()">Shed D
-        </button>
-         </button>
+                <button id="c" onclick="productionShedC()">Shed B
+                </button>
 
-        <button id="prod" onclick="totalProduction()">Total
-        </button>
+                <button id="d" onclick="productionShedD()">Shed D
+                </button>
+                </button>
 
-    </div>   
+                <button id="prod" onclick="totalProduction()">Total
+                </button>
 
-    <div class="overtime">
-        <h1>Income Over Time</h1>
-        <button id="week" onclick="totalProductionWeek()">Weekly Income</button> 
-        <button id="year" onclick="totalProductionYear()">Yearly  Income</button>
+</div>  
+    
+<div class="Rate">
+        <div id="rate">
+            <h1>
+                <strong>Rates</strong>
+            </h1>
+        </div>
+            
+                <button id="1">Daily
 
-    </div>
+                </button>
+                <button id="2">Weekly
+
+                </button>
+                <button id="3">Monthly
+
+                </button>
+                <button id="4">Yearly
+
+                </button>
+</div>
+
+<div class="overtime">
+
+        <h1><strong>
+            Income Over Time
+        </strong>
+    </h1>
+
+            <button id="week" onclick="totalProductionWeek()">
+                Weekly Income
+            </button> 
+
+            <button id="month" onclick="totalProductionYear()">
+                Monthly  Income
+            </button>
+
+            <button id="year" onclick="totalProductionYear()">
+                Yearly  Income
+            </button>
+
+    
+</div>
+
 </body>
 </html>
