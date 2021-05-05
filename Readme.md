@@ -2,8 +2,7 @@
 #### This is a website for JJ Dairy Business as my Week 3 Independent Project at Moringa School, 15th March 2021.
 ## Description
 This website enables  one to view JJ Dairy Business production per shed, sales per day, weekly, monthly and yearly basis.
-##Pre-requisites
-You need to have git installed. If not, you can install git with the following command in your terminal; '$ sudo apt-get install git-all`.
+
 ## Setup/Installation Requirements
 To access this project on your local files, you can clone it using these steps.
   Open your terminal.
