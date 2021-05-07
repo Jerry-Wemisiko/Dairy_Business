@@ -1,5 +1,5 @@
 # Dairy Business
-#### This is a website for JJ Dairy Business as my Week 3 Independent Project at Moringa School, 15th March 2021.
+#### This is a website for JJ Dairy Business as my Week 3 Independent Project at Moringa School
 ## Description
 This website enables  one to view JJ Dairy Business production per shed, sales per day, weekly, monthly and yearly basis.
 
